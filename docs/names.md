@@ -1,16 +1,17 @@
 ## Images
 
-- Corite - base image
-- Iolite - server
+- [beta] Base - base image
+- [not ready] Iolite - server
     - Idolite - docker
     - Isolite - snap
     - Ipolite - podman
-- Hyprite - hyprland
-- Swanite - swayfx
-- Lewisite - labwc
-- Pyrite - pantheon
-- Citrine - cinnamon
-- Anthracite
+- [alpha] Hyprite - hyprland
+- [alpha] Swanite - swayfx
+- [not ready] Lewisite - labwc
+- [alpha] Elderite - scroll
+- [not ready] Pyrite - pantheon
+- [not ready] Citrine - cinnamon
+- [not ready] Anthracite
 
 ## Flavours
 - default - gnome apps

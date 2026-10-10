@@ -29,7 +29,6 @@ modules:
         - ristretto                     # Изображения
         - audacious                     # Музыка
         - audacious-plugins
-        - pogo
         - parole                        # Видео
         - cheese                        # Камера
 
