@@ -1,11 +1,11 @@
 ## Images
 
 - [beta] Base - base image
-- [not ready] Iolite - server
+- [not ready] Iolite - server images
     - Idolite - docker
     - Isolite - snap
     - Ipolite - podman
-- noctalia shell
+- Citrine - noctalia shell images
     - [alpha] Hyprite - hyprland
     - [alpha] Swanite - swayfx
     - [not ready] Lewisite - labwc
