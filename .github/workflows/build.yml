@@ -38,7 +38,7 @@ jobs:
 
     steps:
 
-      # Основной репозиторий
+      # Main repo
       - name: Checkout
         uses: actions/checkout@v7
 
