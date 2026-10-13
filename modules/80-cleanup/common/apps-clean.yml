@@ -1,0 +1,30 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-list-v1.json
+
+modules:
+
+  # -----------------------------------------------
+  # Remove unneccessary packages
+  # -----------------------------------------------
+
+  - type: dnf
+    remove:
+      packages:
+
+        # Vim
+        - vim-data
+        - vim-minimal
+        - vim-filesystem
+        - vim-common
+        - vim-enhanced
+        - xxd
+
+        # Firefox
+        - firefox
+        - firefox-langpacks
+        - mozilla-filesystem  
+
+        # Hunspell
+        - hunspell-en-AU
+        - hunspell-en-CA
+        - hunspell-en-GB
