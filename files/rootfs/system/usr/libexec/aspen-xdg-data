@@ -9,5 +9,5 @@ for dir in "${dirs[@]}"; do
     result+=("$dir")
 done
 
-export XDG_DATA_DIRS
 XDG_DATA_DIRS=$(IFS=:; echo "${result[*]}")
+export XDG_DATA_DIRS
