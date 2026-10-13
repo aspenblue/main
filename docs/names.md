@@ -5,19 +5,18 @@
     - Idolite - docker
     - Isolite - snap
     - Ipolite - podman
-- Citrine - noctalia shell images
+- Selenite - noctalia shell images
     - [alpha] Hyprite - hyprland
     - [alpha] Swanite - swayfx
-    - [not ready] Lewisite - labwc
+    - [alpha] Lewcite - labwc
     - [alpha] Elderite - scroll
     - [not ready] Selenite - umbriel
 - [not ready] Vauxite - xfce
 - [not ready] Pyrite - pantheon
-- [not ready] Citrine - cinnamon
-- [not ready] Anthracite
+- [beta] Citrine - cinnamon
 
 ## Flavours
-- default - gnome apps
-- air - pantheon apps
-- lite - xfce apps
-- plus - cinnamon+mate apps
+- default=air - gnome apps
+- lite - cinnamon+mate apps
+- basic - xfce apps
+- plus - pantheon apps

@@ -19,7 +19,7 @@
 | Image Library       |                                                  | elementary-photos<br>io.elementary.photos          |                                      | ???pix                                 |
 | Image Viewer        | loupe<br>$org.gnome.Loupe                        |                                                    | _ristretto_                          | _eom_<br>???xviewer                    |
 | Image Editor        |                                                  |                                                    |                                      | ???drawing                             |
-| Video Player        | showtime<br>$org.gnome.Showtime                  | elementary-videos<br>$io.elementary.videos         | _parole_                             | _parole_                               |
+| Video Player        | showtime<br>$org.gnome.Showtime                  | elementary-videos<br>$io.elementary.videos         | _parole_                             | _mpv_                                  |
 | Music Library       | rhythmbox<br>$org.gnome.Rhythmbox3               | elementary-music<br>$io.elementary.music           |                                      |                                        |
 | Music Player        | gnome-music<br>$org.gnome.Music                  |                                                    | ???audacious<br>  &audacious-plugins | ???rhythmbox                           |
 | Camera              | snapshot<br>$org.gnome.Snapshot                  | elementary-camera<br>$io.elementary.camera         | ???cheese                            |                                        |
