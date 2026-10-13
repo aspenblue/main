@@ -8,13 +8,29 @@ name: base
 description: "Personal Fedora Atomic image based on Universal Blue, Base image with no gui."
 
 base-image: ghcr.io/ublue-os/base-main
-image-version: latest
+image-version: 44
 
 modules:
 
   - from-file: ../modules/20-system/common/system.yml
   - from-file: ../modules/30-apps/common/apps.yml
   - from-file: ../modules/80-cleanup/common/apps-clean.yml
+
+
+  # -----------------------------------------------
+  # OS details
+  # -----------------------------------------------
+
+  - type: os-release
+    properties:
+      ID: aspenblue-base
+      ID_LIKE: fedora
+      NAME: "Aspenblue Base"
+      PRETTY_NAME: "Aspenblue Base - Fedora Atomic"
+      VERSION: "44"
+  #    VARIANT: ""
+  #    VARIANT_ID: 
+      HOME_URL: "https://github.com/aspenblue/main"
 
 
   # -----------------------------------------------
