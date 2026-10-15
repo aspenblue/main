@@ -13,6 +13,7 @@ modules:
       packages:
 
         # Tools
+        - lxpolkit
         - gparted                   # Разметка дисков
         #- blivet-gui
-        #- btrfs-assistant           # Snapper
+        - btrfs-assistant           # Snapper
