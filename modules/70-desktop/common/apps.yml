@@ -13,6 +13,6 @@ modules:
       packages:
 
         # Tools
-        #- gparted                   # Разметка дисков
-        - blivet-gui
-        - btrfs-assistant           # Snapper
+        - gparted                   # Разметка дисков
+        #- blivet-gui
+        #- btrfs-assistant           # Snapper
