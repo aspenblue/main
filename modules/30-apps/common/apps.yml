@@ -29,6 +29,7 @@ modules:
         - curl                     # installed in base-main
         - wget                     # installed in base-main
         - rsync                    # installed in base-main
+        - fastfetch
 
         # D-Bus / authentication
         - dbus                     # installed in base-main
