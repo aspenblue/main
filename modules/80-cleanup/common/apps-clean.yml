@@ -23,8 +23,3 @@ modules:
         - firefox
         - firefox-langpacks
         - mozilla-filesystem  
-
-        # Hunspell
-        - hunspell-en-AU
-        - hunspell-en-CA
-        - hunspell-en-GB
