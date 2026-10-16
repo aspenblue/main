@@ -58,6 +58,7 @@ modules:
         - snapper
 
         # Other
+        - langpacks-ru
         - hunspell-ru
 
 
