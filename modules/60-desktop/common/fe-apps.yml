@@ -13,5 +13,5 @@ modules:
       packages:
 
         # Tools
-        - gparted                   # Разметка дисков
-        - btrfs-assistant           # Snapper
+        - gparted
+        - timeshift

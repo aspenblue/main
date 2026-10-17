@@ -54,13 +54,6 @@ modules:
         - google-noto-fonts-common # installed in base-main
         - google-noto-emoji-fonts  # installed in base-main
 
-        # Btrfs
-        - snapper
-
-        # Other
-        - langpacks-ru
-        - hunspell-ru
-
 
   # -----------------------------------------------
   # MC - configuration
