@@ -5,6 +5,6 @@ Standart modules order:
 - 40 - services
 - 50 - desktop compositor + shell
 - 60 - desktop apps
-- 70 - appearence
+- 70 - style
 - 80 - cleanup
 - 90 - post actions
