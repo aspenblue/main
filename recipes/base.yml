@@ -12,9 +12,9 @@ image-version: 44
 
 modules:
 
-  - from-file: ../modules/20-system/common/system.yml
-  - from-file: ../modules/30-apps/common/apps.yml
-  - from-file: ../modules/80-cleanup/common/apps-clean.yml
+  - from-file: ../modules/20-system/common-system.yml
+  - from-file: ../modules/30-apps/common-apps.yml
+  - from-file: ../modules/80-cleanup/common-cleanup.yml
 
 
   # -----------------------------------------------
@@ -26,7 +26,7 @@ modules:
       ID: aspenblue-base
       ID_LIKE: fedora
       NAME: "Aspenblue Base"
-      PRETTY_NAME: "Aspenblue Base - Fedora Atomic"
+      PRETTY_NAME: "Aspenblue Base 44 (Fedora Atomic)"
       VERSION: "44"
   #    VARIANT: ""
   #    VARIANT_ID: 
