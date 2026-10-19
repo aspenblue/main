@@ -3,3 +3,4 @@ set -euo pipefail
 
 chmod +x /usr/bin/aspen-*
 chmod +x /usr/libexec/aspen-*
+chmod +x /usr/etc/profiles.d/aspen-*.sh
