@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-chmod --quiet +x /usr/bin/aspen-*
-chmod --quiet +x /usr/libexec/aspen-*
-chmod --quiet +x /usr/etc/profiles.d/aspen-*.sh
+compgen -G '/usr/bin/aspen-*' > /dev/null && chmod +x /usr/bin/aspen-*
+compgen -G '/usr/libexec/aspen-*' > /dev/null && chmod +x /usr/libexec/aspen-*
+compgen -G '/usr/etc/profiles.d/aspen-*.sh' > /dev/null && chmod +x /usr/etc/profiles.d/aspen-*.sh
