@@ -17,10 +17,10 @@ modules:
         - vim-minimal
         #- vim-filesystem
         #- vim-common
-        #- vim-enhanced
+        - vim-enhanced
         #- xxd
 
         # Firefox
         - firefox
         #- firefox-langpacks
-        #- mozilla-filesystem  
+        - mozilla-filesystem  

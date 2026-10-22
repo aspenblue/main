@@ -45,7 +45,7 @@ modules:
 
         # Bluetooth
         - bluez                    # installed in base-main
-        - bluez-tools
+        #- bluez-tools
 
         # File/archive utilities
         - unzip                    # installed in base-main
@@ -62,4 +62,4 @@ modules:
   - type: files
     files:
       - source: rootfs/mc
-        destination: /  
+        destination: /
