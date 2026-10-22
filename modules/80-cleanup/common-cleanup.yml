@@ -9,17 +9,18 @@ modules:
 
   - type: dnf
     remove:
+      auto-remove: true
       packages:
 
         # Vim
-        - vim-data
+        #- vim-data
         - vim-minimal
-        - vim-filesystem
-        - vim-common
-        - vim-enhanced
-        - xxd
+        #- vim-filesystem
+        #- vim-common
+        #- vim-enhanced
+        #- xxd
 
         # Firefox
         - firefox
-        - firefox-langpacks
-        - mozilla-filesystem  
+        #- firefox-langpacks
+        #- mozilla-filesystem  
